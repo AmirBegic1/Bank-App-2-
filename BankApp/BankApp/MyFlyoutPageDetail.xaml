@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.MyFlyoutPageDetail"
+             Title="Wellcome">
+  <StackLayout Padding="10">
+        <Label x:Name="Uvod" Text="Dobro došli nazad u BankApp gospodine "  HorizontalOptions="Center" TextColor="Black">  </Label>
+        <Label Text="Vaše trenutno stanje računa iznosi " TextDecorations="Underline" FontSize="20" TextColor="Black" HorizontalOptions="Center"></Label>
+        <Label Text="ne radi binding.. " TextColor="Green" HorizontalOptions="CenterAndExpand" FontSize="50"></Label>
+        <Label Text="--------------------------------------" HorizontalOptions="CenterAndExpand" FontSize="37" TextDecorations="Strikethrough"></Label>
+        <Label Padding="30"  Text="Ukoliko zelite da izvršite transakciju pritinsite:" TextColor="Red" FontSize="15" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Button
+                
+                VerticalOptions="Center"
+                Text="Tansakcija"
+                TextColor="Black"
+                BackgroundColor="Gray"
+                BorderColor="Red"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_Clicked"
+                >
+
+        </Button>
+
+    </StackLayout>
+</ContentPage>

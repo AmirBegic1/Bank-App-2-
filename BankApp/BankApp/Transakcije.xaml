@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.Transakcije">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Padding="50" Text="T R A N S A K C I J A" TextColor="Black" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"></Label>
+            <Entry x:Name="Druga" Placeholder="€€€" TextColor="Red" HorizontalTextAlignment="Center" Keyboard="Numeric"></Entry>
+
+            <CheckBox HorizontalOptions="Center"></CheckBox>
+
+            <Button
+                        VerticalOptions="Center"
+                        Text="Završi"
+                        TextColor="Black"
+                        BackgroundColor="Transparent"
+                        BorderColor="Red"
+                        BorderWidth="1.5"
+                        CornerRadius="50"
+                        Clicked="Button_Clicked"
+                        >
+
+            </Button>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

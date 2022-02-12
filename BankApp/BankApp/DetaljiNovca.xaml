@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.DetaljiNovca">
+    <ContentPage.Content >
+        <StackLayout BackgroundColor="LightBlue">
+                <StackLayout Padding="90" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="LightBlue">
+                <Label Text="Stavljanje novca na racun" TextColor="Green" TextDecorations="Underline" FontSize="20" VerticalTextAlignment="Start"></Label>
+                <Entry x:Name="txtBalans"  Placeholder="€€€" Keyboard="Numeric" />
+
+                <Button
+                    VerticalOptions="Center"
+                    Text="Dodaj!"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    BorderColor="Red"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button_Clicked"
+                    >
+
+                </Button>
+            
+            
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.Registration">
+    
+        <StackLayout BackgroundColor="LightBlue">
+            <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="LightBlue">
+
+                    <Entry x:Name="txtIme" Placeholder="Ime" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+                    <Entry x:Name="txtPrezime" Placeholder="Prezime" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+                    <Entry x:Name="txtDatumRpdjenja" Placeholder="Datum Rodjenja" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+                    <Entry x:Name="txtImeRoditelja" Placeholder="Ime Roditelja" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+                    <Entry x:Name="txtMjestoRodjenja" Placeholder="Mjesto Rodjenja"  TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+                    <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True" TextColor="Red" HorizontalTextAlignment="Center" ></Entry>
+                    <Entry x:Name="txtPassword2" Placeholder="Confirm Password" IsPassword="True" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+
+                    <Button
+                        VerticalOptions="Center"
+                        Text="Register"
+                        TextColor="Black"
+                        BackgroundColor="Transparent"
+                        BorderColor="Red"
+                        BorderWidth="1.5"
+                        CornerRadius="50"
+                        Clicked="Button_Clicked"
+                        >
+                
+                    </Button>
+
+                    <Label HorizontalOptions="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span  Text="Already have account?" TextColor="Black"/>
+                                <Span Text="Login" TextColor="Green" FontAttributes="Bold" TextDecorations="Underline"></Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+        </StackLayout>
+    
+</ContentPage>

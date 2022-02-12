@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "n9XIdBeE29p477bqhvb8kkLzGqTgP87VU8mu9blyM6KZfghePxCrMrFe+lnVyXKoUsGgXv9mApFpQoCKHkCb/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KORISNIK\\OneDrive\\Desktop\\BankApp Begic Amir\\BankApp\\BankApp\\BankApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

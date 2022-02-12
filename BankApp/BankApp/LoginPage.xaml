@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.LoginPage">
+    <StackLayout BackgroundColor="LightBlue">
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="LightBlue">
+        <Entry x:Name="txtIme" Placeholder="Ime" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+        <Entry x:Name="txtPrezime" Placeholder="Prezime" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+        <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True" TextColor="Red" HorizontalTextAlignment="Center"></Entry>
+
+
+        <Button
+                VerticalOptions="Center"
+                Text="LOGIN"
+                TextColor="Black"
+                BackgroundColor="Transparent"
+                BorderColor="Red"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_Clicked"
+                >
+
+        </Button>
+    </StackLayout>
+    </StackLayout>
+</ContentPage>
